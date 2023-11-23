@@ -30,6 +30,7 @@ def select_random_sweet(sweet_or_empty):
 conveyor_band = [""] * 10
 delivery = []
 
+
 sweets_or_empty = ["Kirsche", "Cola", "Sauer", "Goldbärchen", "Lakritze", "Burger", "Schnecken", "Schocki", ""]
 random_sweets_or_empty = ""
 print("                                                         ")

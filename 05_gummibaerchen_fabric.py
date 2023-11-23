@@ -6,16 +6,16 @@ def place_item(conveyor, item):
 
 
 def drop_item(conveyor, delivery):
-
-    for i in range(9, 0, -1):
-        conveyor[i] = conveyor[i - 1]
-    conveyor[0] = ""
-
     if conveyor[9]:
         print(conveyor[9], "in den Karton gefallen.")
         delivery.append(conveyor[9])
     else:
         print("Keine Packung in den Karton gefallen.")
+
+    for i in range(9, 0, -1):
+        conveyor[i] = conveyor[i - 1]
+    conveyor[0] = ""
+
     print("Die Lieferung enthält: ", len(delivery), " Süßigkeiten.")
     print(delivery)
     print("Der Status des Förderbands ist: ")

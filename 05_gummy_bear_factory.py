@@ -1,6 +1,5 @@
 import random
 
-
 def place_item(conveyor, item):
     conveyor[0] = item
 

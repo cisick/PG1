@@ -53,4 +53,3 @@ while True:
         print("Die Lieferung enthält: ", len(delivery), " Süßigkeiten.")
         print(delivery)
         break
-

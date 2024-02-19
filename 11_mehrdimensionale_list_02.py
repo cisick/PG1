@@ -12,6 +12,7 @@ def setArrival(car_park):
     car_park[level][row][lot]["arrival"] = datetime.datetime.now()
     car_park[level][row][lot]["license plate"] = input("Kennzeichen")
 
+
 # Aufgabe 1
 # Erstellen Sie eine mehrdimensionale Liste für ein Parkhaus (car_park).
 # Das Parkhaus besteht aus:
